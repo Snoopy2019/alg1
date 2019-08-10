@@ -37,3 +37,5 @@ Resolution: Please refer to Vivado Properties Reference Guide (UG912) for more i
 Vivado returned exit code 1
 Vivado reported an error: project file generation failed
 Finished StellarIP generation with error(s)
+
+¥ÌŒÛ»’÷æ
