@@ -1,0 +1,39 @@
+Generating the design using StellarIP Version 1.3.22.0
+------------------------------------------------------
+Parsing 'C:\Users\Administrator\Desktop\10\427_vc707_fmc151\implement\vc707_fmc151_vivado.sdf' sdf file
+Parsing connections in the sdf, please wait...
+Successfully parsed 'C:\Users\Administrator\Desktop\10\427_vc707_fmc151\implement\vc707_fmc151_vivado.sdf' using library 'C:\Users\Administrator\Desktop\10\427_vc707_fmc151\star_lib\427_vc707_fmc151.TCLib'
+The star 'sip_i2c_master' has a duplicate file '../vhdl/pulse2pulse.vhd' already included in 'sip_cid_ex'...
+Successfully created the main file list (RTL sources)
+Successfully created the StellarIP register mapping
+Successfully created the output folder and copied files in it
+Successfully created the VHDL top level file
+Successfully created the top level XDC file
+Successfully created the C (.h) header file
+Unable to find Xilinx Vivado TCL script with user settings. (prevtcl)
+    The file 'C:\Users\Administrator\Desktop\10\427_vc707_fmc151\implement\vc707_fmc151_vivado.prevtcl' is not existing... Will use default Vivado properties instead. (prevtcl)
+Unable to find Xilinx Vivado TCL script with user settings. (postvtcl)
+    The file 'C:\Users\Administrator\Desktop\10\427_vc707_fmc151\implement\vc707_fmc151_vivado.postvtcl' is not existing... Will use default Vivado properties instead. (postvtcl)
+Successfully created the Xilinx Vivado tcl script file (.xvtekel)
+Successfully created modelsim do script file (.do)
+Invoking Vivado, this could take a while, please wait...
+[IP_Flow 19-2162] IP 'afifo' is locked:
+[IP_Flow 19-2162] IP 'fifo_64_to_8' is locked:
+[IP_Flow 19-2162] IP 'pll0' is locked:
+[IP_Flow 19-2162] IP 'gig_ethernet_pcs_pma_1' is locked:
+[IP_Flow 19-2162] IP 'ads62p49_init_mem' is locked:
+[IP_Flow 19-2162] IP 'dac3283_wfm_output_fifo' is locked:
+[IP_Flow 19-2162] IP 'dac3283_v6_pll' is locked:
+[IP_Flow 19-2162] IP 'dac3283_wfm_input_fifo' is locked:
+[IP_Flow 19-2162] IP 'dac3283_wfm_dpram' is locked:
+[IP_Flow 19-2162] IP 'amc7823_init_mem' is locked:
+[IP_Flow 19-2162] IP 'dac3283_phy_fifo' is locked:
+[IP_Flow 19-2162] IP 'ads62p49_storage_fifo' is locked:
+[IP_Flow 19-2162] IP 'cdce72010_init_mem' is locked:
+[IP_Flow 19-2162] IP 'dac3283_init_mem' is locked:
+[Common 17-107] Cannot change read-only property 'CONFIG.Load_Init_File'.
+Resolution: Please refer to Vivado Properties Reference Guide (UG912) for more information on setting properties. while executing
+    "source Src/sip_fmc151/sip_fmc151_v7_vivado.vposttcl" (file "C:\Users\Administrator\Desktop\10\427_vc707_fmc151\output\vc707_fmc151_vivado\vc707_fmc151_vivado.xvtekel" line 108)
+Vivado returned exit code 1
+Vivado reported an error: project file generation failed
+Finished StellarIP generation with error(s)
